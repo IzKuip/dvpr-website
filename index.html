@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="page" id="page-home">
+    <div class="block"></div>
+    <div class="centered">
+      <img src="https://www.intratuin.nl/static/version1641970231/frontend/ISM/intratuin/nl_NL/images/logo.svg"
+        height="75px">
+      <p class="subheader">Alles voor huis, tuin & dier</p><br>
+      <button id="navButton" name="aanbied" class="suggested"><span
+          class="material-icons">local_offer</span>&nbsp;&nbsp;&nbsp;Aanbiedingen</button>
+      <button id="navButton" name="opentijden" class=""><span
+          class="material-icons">schedule</span>&nbsp;&nbsp;&nbsp;Openingstijden</button>
+    </div>
+  </div>
+  <div class="page" id="page-aanbied">
+    <div class="block"></div>
+    <div class="centered" id="offers"></div>
+  </div>
+  <div class="page" id="page-opruim">po</div>
+  <div class="page" id="page-opentijden">
+    <div class="block"></div>
+    <div class="centered decor">
+      <h3>Openingstijden:</h3>
+      <table style="text-align: left;">
+        <tr>
+          <td>Zondag</td>
+          <td>Gesloten</td>
+        </tr>
+        <tr>
+          <td>Maandag</td>
+          <td>09:00–17:00</td>
+        </tr>
+        <tr>
+          <td>Dinsdag</td>
+          <td>09:00–17:00</td>
+        </tr>
+        <tr>
+          <td>Woensdag</td>
+          <td>09:00–17:00</td>
+        </tr>
+        <tr>
+          <td>Donderdag&nbsp;&nbsp;&nbsp;</td>
+          <td>09:00–17:00</td>
+        </tr>
+        <tr>
+          <td>Vrijdag</td>
+          <td>09:00–17:00</td>
+        </tr>
+        <tr>
+          <td>Zaterdag</td>
+          <td>09:00–17:00</td>
+        </tr>
+      </table>
+    </div>
+    
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
