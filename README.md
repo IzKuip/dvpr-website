@@ -4,7 +4,7 @@ To run the dev environment on your device, please make sure you have:
 * yarn preinstalled
 * npm
 
-##Installation
+## Installation
 first, clone the GitHub repository:
 ```bash
 $ git clone git@github.com:TechWorldInc/dvpr-website
